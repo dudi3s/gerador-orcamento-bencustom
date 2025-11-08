@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 import { createClient, SupabaseClient } from '@supabase/supabase-js';
 import { IOrcamento } from '../interfaces/IOrcamento';
-import { environment } from 'src/environments/environment.production';
+import { environment } from 'src/environments/environment.development';
+
 
 @Injectable({
   providedIn: 'root',
